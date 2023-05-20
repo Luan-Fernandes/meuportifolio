@@ -1,0 +1,232 @@
+.sobremim {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(../../images/WhatsApp\ Image\ 2023-05-17\ at\ 17.56.03.jpeg);
+    background-size: 100%;
+    height: 100vh;
+    transition: 1s;
+}
+
+.sobremimD {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(../../images/WhatsApp\ Image\ 2023-05-17\ at\ 17.57.53.jpeg);
+    background-size: 100%;
+    height: 100vh;
+    transition: 1s;
+}
+
+.meuAvatar {
+    position: relative;
+}
+
+.textSobreMim {
+    position: relative;
+    right: 6rem;
+}
+
+.textSobreMim h1 {
+    font-size: 40px;
+    transition: 1s;
+    color: black;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.298);
+}
+
+.textSobreMim p {
+    width: 500px;
+    transition: 1s;
+    font-weight: bolder;
+}
+
+.textSobreMimD {
+    position: relative;
+    right: 6rem;
+}
+
+.textSobreMimD h1 {
+    font-size: 40px;
+    color: white;
+    transition: 1s;
+    text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.334);
+}
+
+.textSobreMimD p {
+    width: 500px;
+    color: white;
+    transition: 1s;
+    font-weight: bolder;
+}
+
+.curriculo {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid green;
+    border-radius: 15px;
+    width: 155px;
+    gap: 5px;
+    color: green;
+
+}
+
+.curriculo span {
+    font-size: 20px;
+}
+
+.curriculo div {
+    font-size: 19px;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.curriculo div:hover {
+    transform: translateY(7px);
+}
+
+.iconHtml {
+    position: relative;
+    left: 10rem;
+    font-size: 80px;
+    color: rgb(52, 189, 52);
+    animation: girar .5s;
+}
+
+.iconCss {
+    position: relative;
+    left: -10rem;
+    font-size: 80px;
+    color: rgb(52, 189, 52);
+    animation: girar .5s;
+}
+
+.iconJs {
+    position: relative;
+    top: -8rem;
+    left: -.5rem;
+    font-size: 80px;
+    color: rgb(52, 189, 52);
+    animation: girar .5s;
+}
+
+.iconReact {
+    position: relative;
+    top: 7rem;
+    left: -.5rem;
+    font-size: 80px;
+    color: rgb(52, 189, 52);
+    animation: girar .5s;
+}
+
+@keyframes pulsando {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
+.iconHtml div {
+    animation: pulsando .5s infinite alternate;
+}
+
+.iconCss div {
+    animation: pulsando .5s infinite alternate;
+}
+
+.iconReact div {
+    animation: pulsando .5s infinite alternate;
+}
+
+.iconJs div {
+    animation: pulsando .5s infinite alternate;
+}
+
+@keyframes girar {
+    0% {
+
+        transform: rotate(0deg) scale(0);
+    }
+
+    100% {
+
+        transform: rotate(360deg) scale(1);
+    }
+
+}
+
+.containertec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 500px;
+}
+
+.containertec1 {
+    display: flex;
+    align-items: center;
+}
+@media screen and (max-width: 720px){
+    .sobremim {
+        flex-direction: column;
+    }
+    
+    .sobremimD {
+       flex-direction: column;
+    }
+    .meuAvatar{
+        width:200px;
+        top: -8rem;
+        
+    }
+    .iconHtml {
+       top: -8rem;
+       left: 4rem;
+       font-size: 50px;
+    }
+    
+    .iconCss {
+        top: -8rem;
+        left: -4rem;
+        font-size: 50px;
+    }
+    
+    .iconJs {
+        top: -11rem;
+        font-size: 50px;
+    }
+    
+    .iconReact {
+       top:-5rem;
+       font-size: 50px;
+    }
+    .textSobreMim{
+        position: relative;
+        top: -20rem;
+        left:1rem;
+        width: 300px;
+        height: 300px;
+    }
+    .textSobreMim p{
+        font-size: 20px;
+        width: 300px;
+
+    }
+    .textSobreMimD{
+        position: relative;
+        top: -20rem;
+        left:1rem;
+        width: 300px;
+        height: 300px;
+    }
+    .textSobreMimD p{
+        font-size: 20px;
+        width: 300px;
+    }
+}
