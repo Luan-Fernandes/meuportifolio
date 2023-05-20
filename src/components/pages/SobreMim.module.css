@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: space-around;
     background-image: url(../../images/WhatsApp\ Image\ 2023-05-17\ at\ 17.56.03.jpeg);
-    background-size: 100%;
+    background-size:cover;
     height: 100vh;
     transition: 1s;
 }
@@ -176,7 +176,6 @@
     .sobremim {
         flex-direction: column;
     }
-    
     .sobremimD {
        flex-direction: column;
     }

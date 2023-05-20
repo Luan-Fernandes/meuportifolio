@@ -13,7 +13,7 @@
     align-items: center;
     justify-content: space-around;
     background-image: url(../../images/WhatsApp\ Image\ 2023-05-16\ at\ 18.47.24.jpeg);
-    background-size: 100%;
+    background-size: cover;
     height: 100vh;
     transition: 1s;
 }
@@ -271,9 +271,14 @@
   @media screen and (max-width: 720px){
     .Home{
         flex-direction: column;
+        overflow-x:hidden ;
+  overflow-y: hidden;
+        
     }
     .HomeD{
         flex-direction: column;
+        overflow-x:hidden ;
+       overflow-y: hidden;
     }
     .section{
         left:4.5rem;
