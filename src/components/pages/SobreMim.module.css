@@ -207,7 +207,7 @@
     }
     .textSobreMim{
         position: relative;
-        top: -20rem;
+        top: -300px;
         left:1rem;
         width: 300px;
         height: 300px;
@@ -221,7 +221,7 @@
     }
     .textSobreMimD{
         position: relative;
-        top: -20rem;
+        top: -300px;
         left:1rem;
         width: 300px;
         height: 300px;
@@ -234,7 +234,7 @@
     }
     .curriculo{
         position: relative;
-       top: -28.5rem;
+       top: -455px;
         padding: 3px;
     }
     .curriculo span {
