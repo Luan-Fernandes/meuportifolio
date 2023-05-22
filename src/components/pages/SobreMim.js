@@ -21,6 +21,10 @@ const SobreMim = ({ modoDL }) => {
       </div>
       <section className={modoDL === true ? styles.textSobreMimD : styles.textSobreMim}>
         <h1>Sobre Mim</h1>
+        <div className={styles.curriculoM}>
+          <span>Meu Curriculo</span>
+          <div><FiDownload /></div>
+          </div>
         <p>Meu nome é Luan Fernandes , e sou apaixonado por programação, Meu primeiro contato com programação foi em 2016 ,quando ainda estava no ensino médio. Apesar de ter gostado da área, só comecei a dar o devido foco em 2021, quando comecei minha graduação em Análise e Desenvolvimento de Sistemas.</p>
         <p> Hoje já sou graduado entendo tecnologia voltadas para o Front-end, Também amo criar projetos envolvendo tecnologias recém aprendidas.</p>
         <div className={styles.curriculo}>

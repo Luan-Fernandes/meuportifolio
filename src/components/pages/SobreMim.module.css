@@ -59,6 +59,9 @@
     font-weight: bolder;
 }
 
+.curriculoM{
+    display: none;
+}
 .curriculo {
     display: flex;
     align-items: center;
@@ -214,9 +217,9 @@
     }
     .textSobreMim p{
         position: relative;
-        top: 5px;
         font-size: 20px;
         width: 300px;
+        top: -40px;
 
     }
     .textSobreMimD{
@@ -230,22 +233,38 @@
         font-size: 20px;
         width: 300px;
         position: relative;
-        top: 5px;
+        top: -40px;
     }
     .curriculo{
-        position: relative;
-       top: -455px;
-        padding: 3px;
+        display: none;
     }
-    .curriculo span {
-        font-size: 20px;
-    }
-    
-    .curriculo div {
-        font-size: 19px;
-        text-align: center;
-        cursor: pointer;
-        transition: .5s;
-    }
+    .curriculoM {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid green;
+    border-radius: 15px;
+    width: 155px;
+    gap: 5px;
+    color: green;
+    position: relative;
+    top: -30px;
+
+}
+
+.curriculoM span {
+    font-size: 20px;
+}
+
+.curriculoM div {
+    font-size: 19px;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.curriculoM div:hover {
+    transform: translateY(7px);
+}
     
 }
