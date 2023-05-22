@@ -213,6 +213,8 @@
         height: 300px;
     }
     .textSobreMim p{
+        position: relative;
+        top: 5px;
         font-size: 20px;
         width: 300px;
 
@@ -227,5 +229,23 @@
     .textSobreMimD p{
         font-size: 20px;
         width: 300px;
+        position: relative;
+        top: 5px;
     }
+    .curriculo{
+        position: relative;
+        bottom: 456px;
+        padding: 3px;
+    }
+    .curriculo span {
+        font-size: 20px;
+    }
+    
+    .curriculo div {
+        font-size: 19px;
+        text-align: center;
+        cursor: pointer;
+        transition: .5s;
+    }
+    
 }

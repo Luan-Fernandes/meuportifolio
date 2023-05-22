@@ -60,7 +60,7 @@
     top: 3rem
 }
 
-.Home span{
+.Home a{
     position: relative;
     top: -7rem;
     left: -1rem;
@@ -76,7 +76,7 @@
     transition: 1s;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.476);
 }
-.HomeD span{
+.HomeD a{
     position: relative;
     top: -7rem;
     left: -1rem;
@@ -92,11 +92,11 @@
     transition: 1s;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.476);
 }
-.Home span:hover{
+.Home a:hover{
     background-color: green;
     color: white;
 }
-.HomeD span:hover{
+.HomeD a:hover{
     background-color: green;
     color: white;
 }
@@ -284,7 +284,7 @@
         left:4.5rem;
         position: relative;
     }
-    .section span{
+    .section a{
         width: 70%;
         padding: 12px;
         top: -3.5rem;
@@ -294,7 +294,7 @@
         left:4.5rem;
         position: relative;
     }
-    .sectionD span{
+    .sectionD a{
         width: 70%;
         padding: 12px;
         top: -3.5rem;
@@ -314,9 +314,9 @@
         display: none;
     }
     .minhaFoto{
-        width:350px;
-        height: 300px;
-        top: -4rem;
+        width:320px;
+        height: 270px;
+        top: -2rem;
     }
     .meuNomeM{
         display: flex;

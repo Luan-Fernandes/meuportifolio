@@ -20,7 +20,9 @@ const Projetos = ({ modoDL }) => {
           <div className={acaoP1 === true ? styles.descrisao1true : styles.descrisao1}>
             <p >Esse projeto é uma Home Page , que trabalha com as tecnologias HTML 5 e Css3 ,utilizando Flex Box e respansividade, incluindo também Java Script e adapitado para modo mobile.</p>
             </div>
+           
             <img onClick={() => setAcaop1(!acaoP1)} onMouseLeave={() => setAcaop1(false)} onMouseEnter={() => setAcaop1(true)} className={styles.img1} src={acaoP1 === true ? gifhome : imgHome} alt="primeiro projeto" />
+            <a  target='_blank' rel='noreferrer' className={styles.linkPM} href="">Link do projeto</a>
       </div>
 
       <div  className={modoDL === true ? styles.Projeto2D : styles.Projeto2}>
@@ -28,6 +30,8 @@ const Projetos = ({ modoDL }) => {
             <p >Esse projeto simula um preenchimento de dados de cartão de um usuário, usando as tecnologias HTML5 e Css3 ,aplicado com Flexbox , estilização de formulários e Java Script ,também trabalhado com DOM ,utilizando dados do imput para impressão e validação do mesmo.</p>
             </div>
             <img onClick={() => setAcaop2(!acaoP2)} onMouseLeave={() => setAcaop2(false)} onMouseEnter={() => setAcaop2(true)} className={styles.img2} src={acaoP2 === true ? gifcar : imgCard} alt="projeto Card"/>
+            <a  target='_blank' rel='noreferrer' className={styles.linkPM2} href="">Link do projeto</a>
+           
       </div>
 
       <div className={modoDL === true ? styles.Projeto3D : styles.Projeto3}>
@@ -35,11 +39,12 @@ const Projetos = ({ modoDL }) => {
             <p >Esse projeto simula um Multi step. Trabalhado com as tecnologias do React, Css module app responsivo, JSX e JS. O projeto é uma SPA ( Sigle Page Aplication), utilizando hooks, React router e também UseState, para a validação dos dados.</p>
             </div>
             <img onClick={() => setAcaop3(!acaoP3)} onMouseLeave={() => setAcaop3(false)} onMouseEnter={() => setAcaop3(true)} className={styles.img3} src={acaoP3 === true ? gifmulti : imgMult} alt=""/>
+            <a  target='_blank' rel='noreferrer' className={styles.linkPM} href="">Link do projeto</a>
       </div>
       </section>
       <div className={styles.LinkGit}>
-      <span>Mais Informações</span>
-      <abbr title="Link do GitHub"><BsGithub/></abbr>
+      <span>Mais Projetos</span>
+      <abbr title="Link do GitHub"><a href="https://github.com/Luan-Fernandes" target='_blank' rel='noreferrer'><BsGithub/></a></abbr>
       </div>
     </div>
   )

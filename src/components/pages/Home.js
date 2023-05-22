@@ -19,7 +19,9 @@ const Home = ({ modoDL }) => {
         {/*img desktop*/}
         <img className={styles.meuNomeM} src={modoDL === true ? meuNomewhite : meuNome} alt=" meu nome" />
           <p>Desenvolvedor Front-End</p>
-          <span>Linkedin</span>
+          <a href="https://www.linkedin.com/in/luan-fernandes-b5b602208/" target='_blank' rel='noreferrer'>
+          Linkedin
+          </a>
         </div>
       </section>
       <img className={styles.minhaFoto} src={minhaFoto} alt="minha foto" />
