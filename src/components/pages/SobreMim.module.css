@@ -234,7 +234,7 @@
     }
     .curriculo{
         position: relative;
-        bottom: 456px;
+       top: -28.5rem;
         padding: 3px;
     }
     .curriculo span {
