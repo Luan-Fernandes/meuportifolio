@@ -181,28 +181,28 @@
     }
     .meuAvatar{
         width:200px;
-        top: -8rem;
+        top: -130px;
         
     }
     .iconHtml {
-       top: -8rem;
+       top: -130px;
        left: 4rem;
        font-size: 50px;
     }
     
     .iconCss {
-        top: -8rem;
+        top: -130px;
         left: -4rem;
         font-size: 50px;
     }
     
     .iconJs {
-        top: -11rem;
+        top: -170px;
         font-size: 50px;
     }
     
     .iconReact {
-       top:-5rem;
+       top:-85px;
        font-size: 50px;
     }
     .textSobreMim{
