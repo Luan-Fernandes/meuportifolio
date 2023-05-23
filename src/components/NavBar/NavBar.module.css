@@ -1,5 +1,6 @@
 .topo{position: fixed;
     width: 100%;
+    background-color:rgba(0, 128, 0, 0.152);
 }
 .mobile{
     display: none;

@@ -17,46 +17,130 @@
     transition: 1s;
 }
 .tecnologias{
-    font-size: 70px;
     color: green;
+    display: flex;
+    width: 260px;
+    flex-wrap: wrap;
+    background-color: rgba(0, 128, 0, 0.206);
+    border-radius: 30px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
 }
-.iconhtml, .iconcss, .iconjs, .iconreact{
-    font-size: 100px;
+.iconhtml, .iconcss, .iconjs, .iconreact,.iconGit{
+    font-size: 130px;
     color: green;
     cursor: pointer;
     transition: .5s;
 }
-.iconhtml:hover, .iconcss:hover, .iconjs:hover, .iconreact:hover{
+.iconhtml:hover, .iconcss:hover, .iconjs:hover, .iconreact:hover,.iconGit:hover{
     color: black;
     transform: rotate(15deg);
 }
 
-.iconhtmlD, .iconcssD, .iconjsD, .iconreactD{
-    font-size: 100px;
+.iconhtmlD, .iconcssD, .iconjsD, .iconreactD,.iconGitD{
+    font-size: 130px;
     color: green;
     cursor: pointer;
     transition: .5s;
 }
-.iconhtmlD:hover, .iconcssD:hover, .iconjsD:hover, .iconreactD:hover{
+.iconhtmlD:hover, .iconcssD:hover, .iconjsD:hover, .iconreactD:hover,.iconGitD:hover{
     color: white;
     transform: rotate(15deg);
 }
 .textotec{
     width: 45%;
     height: 30vw;
-    border: 1px solid;
+    text-align: center;
+    border-radius: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: rgba(0, 128, 0, 0.206);
+    
 }
 .textotecD{
     width: 45%;
     height: 30vw;
-    border: 1px solid;
+    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
+    background-color: rgba(0, 128, 0, 0.206);
+    border-radius: 40px;
+}
+@media screen and (max-width: 720px){
+    .habilidades{
+        display: flex;
+        flex-direction: column;
+    }
+    .habilidadesD{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .tecnologias{
+        color: green;
+        display: flex;
+        width: 260px;
+        flex-wrap: wrap;
+        background-color: rgba(0, 128, 0, 0.206);
+        border-radius: 30px;
+        padding: 10px;
+    }
+    .iconhtml, .iconcss, .iconjs, .iconreact,.iconGit{
+        font-size: 70px;
+        color: green;
+        cursor: pointer;
+        transition: .5s;
+    }
+    .iconhtml:hover, .iconcss:hover, .iconjs:hover, .iconreact:hover,.iconGit:hover{
+        color: black;
+        transform: rotate(15deg);
+    }
+    
+    .iconhtmlD, .iconcssD, .iconjsD, .iconreactD,.iconGitD{
+        font-size: 70px;
+        color: green;
+        cursor: pointer;
+        transition: .5s;
+    }
+    .iconhtmlD:hover, .iconcssD:hover, .iconjsD:hover, .iconreactD:hover,.iconGitD:hover{
+        color: white;
+        transform: rotate(15deg);
+    }
+    .textotec{
+        width: 260px;
+        height: 90vw;
+        border-radius: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 128, 0, 0.206);
+        position: relative;
+        top: -80px;
+        
+    }
+    .textotec p{
+      
+    }
+    .textotecD{
+        width: 260px;
+        height: 90vw;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        background-color: rgba(0, 128, 0, 0.206);
+        border-radius: 40px;
+        position: relative;
+        top: -80px;
+    }
+    
 }
