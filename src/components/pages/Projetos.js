@@ -43,7 +43,7 @@ const Projetos = ({ modoDL }) => {
       </div>
       </section>
       <div className={styles.LinkGit}>
-      <span>Mais Projetos</span>
+      <span>GitHub</span>
       <abbr title="Link do GitHub"><a href="https://github.com/Luan-Fernandes" target='_blank' rel='noreferrer'><BsGithub/></a></abbr>
       </div>
     </div>

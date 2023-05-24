@@ -27,24 +27,24 @@
     align-items: center;
     justify-content: center;
 }
-.iconhtml, .iconcss, .iconjs, .iconreact,.iconGit{
+.iconhtml, .iconcss, .iconjs, .iconreact,.iconGit,.iconGitHub{
     font-size: 130px;
     color: green;
     cursor: pointer;
     transition: .5s;
 }
-.iconhtml:hover, .iconcss:hover, .iconjs:hover, .iconreact:hover,.iconGit:hover{
+.iconhtml:hover, .iconcss:hover, .iconjs:hover, .iconreact:hover,.iconGit:hover,.iconGitHub:hover{
     color: black;
     transform: rotate(15deg);
 }
 
-.iconhtmlD, .iconcssD, .iconjsD, .iconreactD,.iconGitD{
+.iconhtmlD, .iconcssD, .iconjsD, .iconreactD,.iconGitD,.iconGitHubD{
     font-size: 130px;
     color: green;
     cursor: pointer;
     transition: .5s;
 }
-.iconhtmlD:hover, .iconcssD:hover, .iconjsD:hover, .iconreactD:hover,.iconGitD:hover{
+.iconhtmlD:hover, .iconcssD:hover, .iconjsD:hover, .iconreactD:hover,.iconGitD:hover,.iconGitHubD:hover{
     color: white;
     transform: rotate(15deg);
 }
@@ -58,6 +58,8 @@
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 128, 0, 0.206);
+    transition: 1s;
+    padding: 20px;
     
 }
 .textotecD{
@@ -71,6 +73,8 @@
     color: white;
     background-color: rgba(0, 128, 0, 0.206);
     border-radius: 40px;
+    transition: 1s;
+    padding: 20px;
 }
 @media screen and (max-width: 720px){
     .habilidades{
@@ -91,24 +95,24 @@
         border-radius: 30px;
         padding: 10px;
     }
-    .iconhtml, .iconcss, .iconjs, .iconreact,.iconGit{
+    .iconhtml, .iconcss, .iconjs, .iconreact,.iconGit.iconGitHub{
         font-size: 70px;
         color: green;
         cursor: pointer;
         transition: .5s;
     }
-    .iconhtml:hover, .iconcss:hover, .iconjs:hover, .iconreact:hover,.iconGit:hover{
+    .iconhtml:hover, .iconcss:hover, .iconjs:hover, .iconreact:hover,.iconGit:hover,.iconGitHub:hover{
         color: black;
         transform: rotate(15deg);
     }
     
-    .iconhtmlD, .iconcssD, .iconjsD, .iconreactD,.iconGitD{
+    .iconhtmlD, .iconcssD, .iconjsD, .iconreactD,.iconGitD.iconGitHubD{
         font-size: 70px;
         color: green;
         cursor: pointer;
         transition: .5s;
     }
-    .iconhtmlD:hover, .iconcssD:hover, .iconjsD:hover, .iconreactD:hover,.iconGitD:hover{
+    .iconhtmlD:hover, .iconcssD:hover, .iconjsD:hover, .iconreactD:hover,.iconGitD:hover,.iconGitHubD:hover{
         color: white;
         transform: rotate(15deg);
     }
