@@ -5,6 +5,7 @@ import { FaCss3Alt } from "react-icons/fa";
 import { DiJavascript1 } from "react-icons/di";
 import { FaReact } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
+import curriculo from './currículoLuanFernandes.pdf'
 
 
 const SobreMim = ({ modoDL }) => {
@@ -29,7 +30,7 @@ const SobreMim = ({ modoDL }) => {
         <p> Hoje já sou graduado entendo tecnologia voltadas para o Front-end, Também amo criar projetos envolvendo tecnologias recém aprendidas.</p>
         <div className={styles.curriculo}>
           <span>Meu Curriculo</span>
-          <div><FiDownload /></div>
+          <div><a href={curriculo} download ><FiDownload /></a></div>
         </div>
       </section>
 
