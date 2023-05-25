@@ -27,8 +27,8 @@
     align-items: center;
     justify-content: center;
 }
-.iconhtml, .iconcss, .iconjs, .iconreact,.iconGit,.iconGitHub{
-    font-size: 130px;
+.iconhtml, .iconcss, .iconjs, .iconreact, .iconGit, .iconGitHub{
+    font-size: 120px;
     color: green;
     cursor: pointer;
     transition: .5s;
@@ -39,12 +39,12 @@
 }
 
 .iconhtmlD, .iconcssD, .iconjsD, .iconreactD,.iconGitD,.iconGitHubD{
-    font-size: 130px;
+    font-size: 120px;
     color: green;
     cursor: pointer;
     transition: .5s;
 }
-.iconhtmlD:hover, .iconcssD:hover, .iconjsD:hover, .iconreactD:hover,.iconGitD:hover,.iconGitHubD:hover{
+.iconhtmlD:hover, .iconcssD:hover, .iconjsD:hover, .iconreactD:hover, .iconGitD:hover, .iconGitHubD:hover{
     color: white;
     transform: rotate(15deg);
 }
@@ -95,20 +95,20 @@
         border-radius: 30px;
         padding: 10px;
     }
-    .iconhtml, .iconcss, .iconjs, .iconreact,.iconGit.iconGitHub{
-        font-size: 70px;
+    .iconhtml, .iconcss, .iconjs, .iconreact, .iconGit, .iconGitHub{
         color: green;
+        font-size: 70px;
         cursor: pointer;
         transition: .5s;
     }
-    .iconhtml:hover, .iconcss:hover, .iconjs:hover, .iconreact:hover,.iconGit:hover,.iconGitHub:hover{
+    .iconhtml:hover, .iconcss:hover, .iconjs:hover, .iconreact:hover, .iconGit:hover, .iconGitHub:hover{
         color: black;
         transform: rotate(15deg);
     }
     
-    .iconhtmlD, .iconcssD, .iconjsD, .iconreactD,.iconGitD.iconGitHubD{
-        font-size: 70px;
+    .iconhtmlD, .iconcssD, .iconjsD, .iconreactD,.iconGitD, .iconGitHubD{
         color: green;
+        font-size: 70px;
         cursor: pointer;
         transition: .5s;
     }
@@ -128,9 +128,6 @@
         position: relative;
         top: -80px;
         
-    }
-    .textotec p{
-      
     }
     .textotecD{
         width: 260px;
