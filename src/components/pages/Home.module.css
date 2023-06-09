@@ -287,7 +287,7 @@
     .section a{
         width: 70%;
         padding: 12px;
-        top: -3.5rem;
+        top: -3rem;
         left: -.5rem;
     }
     .sectionD{
@@ -297,15 +297,16 @@
     .sectionD a{
         width: 70%;
         padding: 12px;
-        top: -3.5rem;
+        top: -3rem;
         left: -.5rem;
     }
     
     .dados h1, .dados p {
-        font-size: 30px;
+        font-size: 25px;
     }
     .dados p{
-        top:-2rem;
+        font-size: 25px;
+        top:-1.7rem;
     }
     .dados{
         left: -3rem;
@@ -314,13 +315,13 @@
         display: none;
     }
     .minhaFoto{
-        width:320px;
-        height: 270px;
+        width:250px;
+        height: 240px;
         top: -2rem;
     }
     .meuNomeM{
         display: flex;
-        width: 350px;
+        width: 280px;
     }
   }
 

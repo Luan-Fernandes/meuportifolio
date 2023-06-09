@@ -178,62 +178,78 @@
 @media screen and (max-width: 720px){
     .sobremim {
         flex-direction: column;
+        justify-content: center;
     }
     .sobremimD {
        flex-direction: column;
+       justify-content: center;
     }
     .meuAvatar{
         width:200px;
-        top: -130px;
-        
+        margin-top: -180px;
+    }
+    .containertec{
+        height: 0px;
     }
     .iconHtml {
-       top: -130px;
+       top: -100px;
        left: 4rem;
        font-size: 50px;
     }
     
     .iconCss {
-        top: -130px;
+        top: -100px;
         left: -4rem;
         font-size: 50px;
     }
     
     .iconJs {
-        top: -170px;
+        top: -70px;
         font-size: 50px;
     }
     
     .iconReact {
-       top:-85px;
+       top:-110px;
        font-size: 50px;
     }
     .textSobreMim{
         position: relative;
-        top: -300px;
         left:1rem;
+        top: -20px;
         width: 300px;
         height: 300px;
     }
     .textSobreMim p{
+        text-align: center;
+        font-size: 17px;
+        width: 250px;
         position: relative;
-        font-size: 20px;
-        width: 300px;
-        top: -40px;
+        top: -10px;
+        left: 20px;
 
     }
     .textSobreMimD{
         position: relative;
-        top: -300px;
         left:1rem;
+        top: -20px;
         width: 300px;
         height: 300px;
     }
     .textSobreMimD p{
-        font-size: 20px;
-        width: 300px;
+        text-align: center;
+        font-size: 17px;
+        width: 250px;
         position: relative;
-        top: -40px;
+        top: -10px;
+        left: 20px;
+    }
+    .textSobreMimD h1{
+        font-size: 35px;
+        text-align: center;
+    }
+    .textSobreMim h1{
+        font-size: 35px;
+        text-align: center;
     }
     .curriculo{
         display: none;
@@ -248,7 +264,8 @@
     gap: 5px;
     color: green;
     position: relative;
-    top: -30px;
+    top: -20px;
+    left: 55px;
 
 }
 
