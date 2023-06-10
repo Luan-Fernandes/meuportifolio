@@ -26,7 +26,47 @@
     padding: 10px;
     align-items: center;
     justify-content: center;
+    animation: container2 1s;
 }
+@keyframes container2 {
+    0% {
+      transform: translateX(-48px);
+      animation-timing-function: ease-in;
+      opacity: 1;
+    }
+    24% {
+      opacity: 1;
+    }
+    40% {
+      transform: translateX(-26px);
+      animation-timing-function: ease-in;
+    }
+    65% {
+      transform: translateX(-13px);
+      animation-timing-function: ease-in;
+    }
+    82% {
+      transform: translateX(-6.5px);
+      animation-timing-function: ease-in;
+    }
+    93% {
+      transform: translateX(-4px);
+      animation-timing-function: ease-in;
+    }
+    25%,
+    55%,
+    75%,
+    87%,
+    98% {
+      transform: translateX(0px);
+      animation-timing-function: ease-out;
+    }
+    100% {
+      transform: translateX(0px);
+      animation-timing-function: ease-out;
+      opacity: 1;
+    }
+  }
 .iconhtml, .iconcss, .iconjs, .iconreact, .iconGit, .iconGitHub{
     font-size: 120px;
     color: green;
@@ -60,8 +100,49 @@
     background-color: rgba(0, 128, 0, 0.206);
     transition: 1s;
     padding: 20px;
-    
+    animation: container1 1s;
 }
+
+@keyframes container1 {
+    0% {
+      transform: translateX(48px);
+      animation-timing-function: ease-in;
+      opacity: 1;
+    }
+    24% {
+      opacity: 1;
+    }
+    40% {
+      transform: translateX(26px);
+      animation-timing-function: ease-in;
+    }
+    65% {
+      transform: translateX(13px);
+      animation-timing-function: ease-in;
+    }
+    82% {
+      transform: translateX(6.5px);
+      animation-timing-function: ease-in;
+    }
+    93% {
+      transform: translateX(4px);
+      animation-timing-function: ease-in;
+    }
+    25%,
+    55%,
+    75%,
+    87%,
+    98% {
+      transform: translateX(0px);
+      animation-timing-function: ease-out;
+    }
+    100% {
+      transform: translateX(0px);
+      animation-timing-function: ease-out;
+      opacity: 1;
+    }
+  }
+
 .textotecD{
     width: 45%;
     height: 30vw;
@@ -75,6 +156,7 @@
     border-radius: 40px;
     transition: 1s;
     padding: 20px;
+    animation: container1 1s;
 }
 @media screen and (max-width: 720px){
     .habilidades{
@@ -94,7 +176,49 @@
         background-color: rgba(0, 128, 0, 0.206);
         border-radius: 30px;
         padding: 10px;
+        position: relative;
+        left: 20px;
+        animation: container1 1s;
     }
+    @keyframes container1 {
+        0% {
+          transform: translateY(-48px);
+          animation-timing-function: ease-in;
+          opacity: 1;
+        }
+        24% {
+          opacity: 1;
+        }
+        40% {
+          transform: translateY(-26px);
+          animation-timing-function: ease-in;
+        }
+        65% {
+          transform: translateY(-13px);
+          animation-timing-function: ease-in;
+        }
+        82% {
+          transform: translateY(-6.5px);
+          animation-timing-function: ease-in;
+        }
+        93% {
+          transform: translateY(-4px);
+          animation-timing-function: ease-in;
+        }
+        25%,
+        55%,
+        75%,
+        87%,
+        98% {
+          transform: translateY(0px);
+          animation-timing-function: ease-out;
+        }
+        100% {
+          transform: translateY(0px);
+          animation-timing-function: ease-out;
+          opacity: 1;
+        }
+      }
     .iconhtml, .iconcss, .iconjs, .iconreact, .iconGit, .iconGitHub{
         color: green;
         font-size: 70px;
@@ -117,7 +241,7 @@
         transform: rotate(15deg);
     }
     .textotec{
-        width: 260px;
+        width: 240px;
         height: 90vw;
         border-radius: 40px;
         display: flex;
@@ -126,11 +250,51 @@
         align-items: center;
         background-color: rgba(0, 128, 0, 0.206);
         position: relative;
-        top: -80px;
-        
+        top: -50px;
+        left: 20px;
+        animation: container2 1s;
     }
+    @keyframes container2 {
+        0% {
+          transform: translateY(48px);
+          animation-timing-function: ease-in;
+          opacity: 1;
+        }
+        24% {
+          opacity: 1;
+        }
+        40% {
+          transform: translateY(26px);
+          animation-timing-function: ease-in;
+        }
+        65% {
+          transform: translateY(13px);
+          animation-timing-function: ease-in;
+        }
+        82% {
+          transform: translateY(6.5px);
+          animation-timing-function: ease-in;
+        }
+        93% {
+          transform: translateY(4px);
+          animation-timing-function: ease-in;
+        }
+        25%,
+        55%,
+        75%,
+        87%,
+        98% {
+          transform: translateY(0px);
+          animation-timing-function: ease-out;
+        }
+        100% {
+          transform: translateY(0px);
+          animation-timing-function: ease-out;
+          opacity: 1;
+        }
+      }
     .textotecD{
-        width: 260px;
+        width: 240px;
         height: 90vw;
         display: flex;
         flex-direction: column;
@@ -141,7 +305,9 @@
         background-color: rgba(0, 128, 0, 0.206);
         border-radius: 40px;
         position: relative;
-        top: -80px;
+        top: -50px;
+        left: 20px;
+        animation: container2 1s;
     }
     
 }

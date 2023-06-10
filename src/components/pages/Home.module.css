@@ -314,6 +314,7 @@
     .digitandoMeuNome,.cursor,.digitandoD,.digitando{
         display: none;
     }
+    
     .minhaFoto{
         width:250px;
         height: 240px;

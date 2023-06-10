@@ -55,6 +55,7 @@
     top: 30px;
     color: black;
     position: relative;
+   
 }
 .Projeto1D, .Projeto2D,.Projeto3D{
     width: 300px;
@@ -62,6 +63,7 @@
     color: white;
     top: 30px;
     position: relative;
+    animation: container 1s;
 }
 .meusProjetos{
     display: flex;
@@ -78,6 +80,132 @@
     padding: 10px;
     cursor: pointer;
 }
+.img2{
+    animation: container2 1s;
+}
+@keyframes container2 {
+    0% {
+      transform: translateY(-48px);
+      animation-timing-function: ease-in;
+      opacity: 1;
+    }
+    24% {
+      opacity: 1;
+    }
+    40% {
+      transform: translateY(-26px);
+      animation-timing-function: ease-in;
+    }
+    65% {
+      transform: translateY(-13px);
+      animation-timing-function: ease-in;
+    }
+    82% {
+      transform: translateY(-6.5px);
+      animation-timing-function: ease-in;
+    }
+    93% {
+      transform: translateY(-4px);
+      animation-timing-function: ease-in;
+    }
+    25%,
+    55%,
+    75%,
+    87%,
+    98% {
+      transform: translateY(0px);
+      animation-timing-function: ease-out;
+    }
+    100% {
+      transform: translateY(0px);
+      animation-timing-function: ease-out;
+      opacity: 1;
+    }
+  }
+  .img3{
+    animation: container3 1s;
+}
+@keyframes container3 {
+    0% {
+      transform: translate(48px);
+      animation-timing-function: ease-in;
+      opacity: 1;
+    }
+    24% {
+      opacity: 1;
+    }
+    40% {
+      transform: translate(26px);
+      animation-timing-function: ease-in;
+    }
+    65% {
+      transform: translate(13px);
+      animation-timing-function: ease-in;
+    }
+    82% {
+      transform: translate(6.5px);
+      animation-timing-function: ease-in;
+    }
+    93% {
+      transform: translate(4px);
+      animation-timing-function: ease-in;
+    }
+    25%,
+    55%,
+    75%,
+    87%,
+    98% {
+      transform: translateX(0px);
+      animation-timing-function: ease-out;
+    }
+    100% {
+      transform: translateX(0px);
+      animation-timing-function: ease-out;
+      opacity: 1;
+    }
+  }
+.img1{
+    animation: container1 1s;
+}
+@keyframes container1 {
+    0% {
+      transform: translateX(-48px);
+      animation-timing-function: ease-in;
+      opacity: 1;
+    }
+    24% {
+      opacity: 1;
+    }
+    40% {
+      transform: translateX(-26px);
+      animation-timing-function: ease-in;
+    }
+    65% {
+      transform: translateX(-13px);
+      animation-timing-function: ease-in;
+    }
+    82% {
+      transform: translateX(-6.5px);
+      animation-timing-function: ease-in;
+    }
+    93% {
+      transform: translateX(-4px);
+      animation-timing-function: ease-in;
+    }
+    25%,
+    55%,
+    75%,
+    87%,
+    98% {
+      transform: translateX(0px);
+      animation-timing-function: ease-out;
+    }
+    100% {
+      transform: translateX(0px);
+      animation-timing-function: ease-out;
+      opacity: 1;
+    }
+  }
 .descrisao1,.descrisao2,.descrisao3{
     position: absolute;
     width: 310px;
@@ -141,31 +269,35 @@
     .projetos h1{
         top: -50px;
         left: 10px;
+        font-size: 40px;
     }
     .projetosD h1{
         top: -50px;
         left: 10px;
+        font-size: 40px;
     }
     .meusProjetos{
         flex-direction: column;
-        top: 0px;
-        gap: 0;
+        width: 20%;
+        margin-right: 150px;
+        height: 400px;
         justify-content: flex-end;
+        gap:80px
     }
     .Projeto1, .Projeto2,.Projeto3{
-        width:330px;
+        width:300px;
         top: -60px;
         height: 160px;
-        left: 25px;
+        left: -25px;
         color: black;
         position: relative;
         display: flex;
     }
     .Projeto1D, .Projeto2D,.Projeto3D{
-        width:330px;
+        width:300px;
         top: -60px;
         height: 160px;
-        left: 25px;
+        left: -25px;
         color: white;
         position: relative;
         display: flex;
@@ -173,13 +305,18 @@
     .Projeto2{
         display: flex;
         justify-content:flex-end;
+        position: relative;
+        left: -11px;
+    
     }
     .Projeto2D{
         display: flex;
         justify-content:flex-end;
+        position: relative;
+        left: -11px;
+        
     }
     .img1, .img2, .img3{
-        border: 1px solid green;
         padding: 0;
         width: 180px;
         height:110px;
@@ -188,7 +325,7 @@
     }
     .descrisao1true,.descrisao3true{
         position: absolute;
-        width: 150px;
+        width: 130px;
         height: 230px;
         top: 0;
         transition: .5s;
@@ -199,9 +336,10 @@
     }
     .descrisao2true{
         position: absolute;
-        width: 150px;
+        left: 7px;
+        width: 140px;
         height: 230px;
-        top: 0;
+        top: -25px;
         transition: .5s;
         font-size: 12px;
         opacity: 100%;
@@ -210,7 +348,7 @@
     }
     .descrisao1,.descrisao3{
         position: absolute;
-        width: 150px;
+        width: 130px;
         height: 230px;
         top: 0;
         transition: 1s;
@@ -218,9 +356,9 @@
     }
     .descrisao2{
         position: absolute;
-        width: 150px;
+        width: 140px;
         height: 230px;
-        top: 0;
+        top: -25px;
         transition: 1s;
         font-size: 12px;
     }
@@ -261,5 +399,131 @@
     }
     .LinkGit abbr{
         font-size: 25px;
+    }
+    .img2{
+        animation: container2 1s;
+    }
+    @keyframes container2 {
+        0% {
+          transform: translateX(-48px);
+          animation-timing-function: ease-in;
+          opacity: 1;
+        }
+        24% {
+          opacity: 1;
+        }
+        40% {
+          transform: translateX(-26px);
+          animation-timing-function: ease-in;
+        }
+        65% {
+          transform: translateX(-13px);
+          animation-timing-function: ease-in;
+        }
+        82% {
+          transform: translateX(-6.5px);
+          animation-timing-function: ease-in;
+        }
+        93% {
+          transform: translateX(-4px);
+          animation-timing-function: ease-in;
+        }
+        25%,
+        55%,
+        75%,
+        87%,
+        98% {
+          transform: translateX(0px);
+          animation-timing-function: ease-out;
+        }
+        100% {
+          transform: translateX(0px);
+          animation-timing-function: ease-out;
+          opacity: 1;
+        }
+      }
+      .img3{
+        animation: container3 1s;
+    }
+    @keyframes container3 {
+        0% {
+          transform: translateX(48px);
+          animation-timing-function: ease-in;
+          opacity: 1;
+        }
+        24% {
+          opacity: 1;
+        }
+        40% {
+          transform: translateX(26px);
+          animation-timing-function: ease-in;
+        }
+        65% {
+          transform: translateX(13px);
+          animation-timing-function: ease-in;
+        }
+        82% {
+          transform: translateX(6.5px);
+          animation-timing-function: ease-in;
+        }
+        93% {
+          transform: translateX(4px);
+          animation-timing-function: ease-in;
+        }
+        25%,
+        55%,
+        75%,
+        87%,
+        98% {
+          transform: translateX(0px);
+          animation-timing-function: ease-out;
+        }
+        100% {
+          transform: translateX(0px);
+          animation-timing-function: ease-out;
+          opacity: 1;
+        }
+      }
+    .img1{
+        animation: container1 1s;
+    }
+    @keyframes container1 {
+      0% {
+        transform: translateX(48px);
+        animation-timing-function: ease-in;
+        opacity: 1;
+      }
+      24% {
+        opacity: 1;
+      }
+      40% {
+        transform: translateX(26px);
+        animation-timing-function: ease-in;
+      }
+      65% {
+        transform: translateX(13px);
+        animation-timing-function: ease-in;
+      }
+      82% {
+        transform: translateX(6.5px);
+        animation-timing-function: ease-in;
+      }
+      93% {
+        transform: translateX(4px);
+        animation-timing-function: ease-in;
+      }
+      25%,
+      55%,
+      75%,
+      87%,
+      98% {
+        transform: translateX(0px);
+        animation-timing-function: ease-out;
+      }
+      100% {
+        transform: translateX(0px);
+        animation-timing-function: ease-out;
+        opacity: 1;
+      }
     }
 }

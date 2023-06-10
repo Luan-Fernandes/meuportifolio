@@ -7,7 +7,6 @@
     height: 100vh;
     transition: 1s;
 }
-
 .sobremimD {
     display: flex;
     align-items: center;
@@ -25,7 +24,47 @@
 .textSobreMim {
     position: relative;
     right: 6rem;
+    animation: container 1s;
 }
+@keyframes container {
+    0% {
+      transform: translateX(48px);
+      animation-timing-function: ease-in;
+      opacity: 1;
+    }
+    24% {
+      opacity: 1;
+    }
+    40% {
+      transform: translateX(26px);
+      animation-timing-function: ease-in;
+    }
+    65% {
+      transform: translateX(13px);
+      animation-timing-function: ease-in;
+    }
+    82% {
+      transform: translateX(6.5px);
+      animation-timing-function: ease-in;
+    }
+    93% {
+      transform: translateX(4px);
+      animation-timing-function: ease-in;
+    }
+    25%,
+    55%,
+    75%,
+    87%,
+    98% {
+      transform: translateX(0px);
+      animation-timing-function: ease-out;
+    }
+    100% {
+      transform: translateX(0px);
+      animation-timing-function: ease-out;
+      opacity: 1;
+    }
+  }
 
 .textSobreMim h1 {
     font-size: 40px;
@@ -43,6 +82,7 @@
 .textSobreMimD {
     position: relative;
     right: 6rem;
+    animation: container 1s;
 }
 
 .textSobreMimD h1 {
@@ -218,7 +258,48 @@
         top: -20px;
         width: 300px;
         height: 300px;
+        animation: container 1s;
     }
+    @keyframes container {
+        0% {
+          transform: translateY(48px);
+          animation-timing-function: ease-in;
+          opacity: 1;
+        }
+        24% {
+          opacity: 1;
+        }
+        40% {
+          transform: translateY(26px);
+          animation-timing-function: ease-in;
+        }
+        65% {
+          transform: translateY(13px);
+          animation-timing-function: ease-in;
+        }
+        82% {
+          transform: translateY(6.5px);
+          animation-timing-function: ease-in;
+        }
+        93% {
+          transform: translateY(4px);
+          animation-timing-function: ease-in;
+        }
+        25%,
+        55%,
+        75%,
+        87%,
+        98% {
+          transform: translateY(0px);
+          animation-timing-function: ease-out;
+        }
+        100% {
+          transform: translateY(0px);
+          animation-timing-function: ease-out;
+          opacity: 1;
+        }
+      }
+    
     .textSobreMim p{
         text-align: center;
         font-size: 17px;
@@ -234,6 +315,7 @@
         top: -20px;
         width: 300px;
         height: 300px;
+        animation: container 2s;
     }
     .textSobreMimD p{
         text-align: center;
